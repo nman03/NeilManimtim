@@ -33,6 +33,7 @@ export const NaviBar = () => (
             <Nav className="ml-auto">
                 <Nav.Link className="item" href="#/">Home</Nav.Link>
                 <Nav.Link className="item" href="#/Projects">Projects</Nav.Link>
+                <Nav.Link className="item" href="/ResumeGen.pdf" target="_blank">Resume</Nav.Link>
             </Nav>
         </Navbar>
     </Styles>  

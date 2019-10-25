@@ -28,7 +28,12 @@ const Styles = styled.div`
     }
 
     .carousel-indicators li {
-        box-shadow: inset 1px 1px 1px 1px #f79a4e;
+        background-color: #f79a4e;
+    }
+
+    .caption p, .caption h3 {
+        color: black;
+        background-color: rgba(256,256,256,0.5)
     }
 `;
 
@@ -37,12 +42,24 @@ export const Home = () => (
         <Carousel className="carousel" color="black">
             <Carousel.Item>
                 <img className="img" src={game} alt="game-gif" />
+                <Carousel.Caption>
+                    <h3>Forgotten Dungeon</h3>
+                    <p>3D First-Person Dungeon Shooter made with Unity</p>
+                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="img" src={taxi} alt="taxi-gif" />
+                <Carousel.Caption className="caption">
+                    <h3>OpenAI Gym Taxi-v2</h3>
+                    <p>Feature-based Reinforcement Learning</p>
+                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="img" src={chatbot} alt="chatbot" />
+                <Carousel.Caption className="caption">
+                    <h3>University Chatbot</h3>
+                    <p>Service ChatBot with built-in Natural Languange Processing.</p>
+                </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
     </Styles>

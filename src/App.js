@@ -4,12 +4,15 @@ import { Home } from './components/Home';
 import { Projects } from './components/Projects';
 import { NaviBar } from './components/NaviBar';
 import { Footer } from './components/Footer';
+import { Summary } from './components/Summary';
 import Containter from 'react-bootstrap/Container';
+
 
 function App() {
 	return (
         <Fragment>
             <NaviBar />
+            <Summary />
             <Containter>
                 <Router>
                     <Switch>
@@ -17,7 +20,7 @@ function App() {
                         <Route path="/Projects" component={Projects} />
                     </Switch>
                 </Router>
-            </Containter>
+            </Containter> 
             <Footer />	  
         </Fragment>
 	);
