@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NeilManimtim/static/css/main.049bd05e.chunk.css",
-    "main.js": "/NeilManimtim/static/js/main.2b12f687.chunk.js",
-    "main.js.map": "/NeilManimtim/static/js/main.2b12f687.chunk.js.map",
+    "main.js": "/NeilManimtim/static/js/main.09958453.chunk.js",
+    "main.js.map": "/NeilManimtim/static/js/main.09958453.chunk.js.map",
     "runtime-main.js": "/NeilManimtim/static/js/runtime-main.101be6ae.js",
     "runtime-main.js.map": "/NeilManimtim/static/js/runtime-main.101be6ae.js.map",
     "static/js/2.a7620a70.chunk.js": "/NeilManimtim/static/js/2.a7620a70.chunk.js",
     "static/js/2.a7620a70.chunk.js.map": "/NeilManimtim/static/js/2.a7620a70.chunk.js.map",
     "index.html": "/NeilManimtim/index.html",
-    "precache-manifest.3b9e59cba6bbbdcdd7859c25554ccf89.js": "/NeilManimtim/precache-manifest.3b9e59cba6bbbdcdd7859c25554ccf89.js",
+    "precache-manifest.b474cfc4b360df72835035592b921ec3.js": "/NeilManimtim/precache-manifest.b474cfc4b360df72835035592b921ec3.js",
     "service-worker.js": "/NeilManimtim/service-worker.js",
     "static/css/main.049bd05e.chunk.css.map": "/NeilManimtim/static/css/main.049bd05e.chunk.css.map",
     "static/media/chatbot.png": "/NeilManimtim/static/media/chatbot.8308bec6.png",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.101be6ae.js",
     "static/js/2.a7620a70.chunk.js",
     "static/css/main.049bd05e.chunk.css",
-    "static/js/main.2b12f687.chunk.js"
+    "static/js/main.09958453.chunk.js"
   ]
 }
