@@ -5,24 +5,20 @@ import { Projects } from './components/Projects';
 import { NaviBar } from './components/NaviBar';
 import { Footer } from './components/Footer';
 import Containter from 'react-bootstrap/Container';
-import './App.css';
-
 
 function App() {
 	return (
         <Fragment>
-            <div className="App">
-                <NaviBar />
-                <Containter>
-                    <Router>
-                        <Switch>
-                            <Route exact path="/" component={Home} />
-                            <Route path="/Projects" component={Projects} />
-                        </Switch>
-                    </Router>
-                </Containter>
-                <Footer />	
-            </div>    
+            <NaviBar />
+            <Containter>
+                <Router>
+                    <Switch>
+                        <Route exact path="/" component={Home} />
+                        <Route path="/Projects" component={Projects} />
+                    </Switch>
+                </Router>
+            </Containter>
+            <Footer />	  
         </Fragment>
 	);
 }
