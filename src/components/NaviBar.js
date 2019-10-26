@@ -11,10 +11,6 @@ const Styles = styled.div`
 
     .brand {
         color: #f7be16 !important;
-       
-        &:hover {
-            color: white !important;
-        }
     }
     
     .item {

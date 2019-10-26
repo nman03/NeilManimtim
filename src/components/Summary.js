@@ -16,7 +16,7 @@ const Styles = styled.div`
         z-index: -2;
     }
 
-    h4 {
+    h3 {
         color:  #0b1021;
     }
 `;
@@ -25,12 +25,11 @@ export const Summary = () => (
     <Styles>
         <Jumbotron fluid className="jumbo">
             <Container>
-                <h4>Welcome</h4> 
+                <h3>Welcome</h3> 
                 <h6>I'm a programmer who loves to learn. I have a strong 
                 grasp of OOPs concepts, built on a strong foundation 
                 in JAVA. Below are some of the projects I've worked on.</h6>
             </Container>   
-        </Jumbotron>
-        
+        </Jumbotron>     
     </Styles>    
 );

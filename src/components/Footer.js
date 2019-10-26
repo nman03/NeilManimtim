@@ -40,7 +40,7 @@ export const Footer = () => (
             <a className="link" href="https://github.com/nman03">GitHub</a> |
             <a className="link" href="https://www.linkedin.com/in/neilmanimtim/">LinkedIn</a> |
             <a className="link" href="mailto:nm31997@gmail.com">E-Mail</a>
-            <img className="logo" src={logo}/> Powered by React
+            <img className="logo" src={logo} alt="react-logo"/> Powered by React
         </div>
     </Styles>
 );
