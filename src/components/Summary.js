@@ -9,7 +9,7 @@ const Styles = styled.div`
         background: url(${jumbo}) no-repeat center;
         bacground-size: cover;
         color: white;
-        height: 100px;
+        min-height: 200px;
         margin-bottom: 50px;
         padding: 10px;
         margin-right: auto;
@@ -19,12 +19,16 @@ const Styles = styled.div`
     h3 {
         color:  #0b1021;
     }
+
+    .text {
+        padding-top: 50px;
+    }
 `;
 
 export const Summary = () => (
     <Styles>
         <Jumbotron fluid className="jumbo">
-            <Container>
+            <Container className="text">
                 <h3>Welcome</h3> 
                 <h6>I'm a programmer who loves to learn. I have a strong 
                 grasp of OOPs concepts, built on a strong foundation 

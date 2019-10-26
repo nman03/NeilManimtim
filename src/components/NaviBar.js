@@ -6,11 +6,10 @@ import styled from 'styled-components';
 const Styles = styled.div`
     .navbar {
         background-color: #0b1021;
-        color: white;
     }
 
     .brand {
-        color: #f7be16 !important;
+        color: #f7be16;
     }
     
     .item {
@@ -28,7 +27,7 @@ const Styles = styled.div`
 
 export const NaviBar = () => (
     <Styles>
-        <Navbar className="navbar" >
+        <Navbar fluid className="navbar" >
             <Navbar.Brand className="brand" href="#/">
                 <img className="logo" src={logo} width="20" height="20" alt="logo" />
                 Neil Manimtim

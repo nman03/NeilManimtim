@@ -22,7 +22,7 @@ export const Home = () => (
         <ProjectCarousel />
         <h3>Background</h3>
         <p>I was born in the island nation of Philippines where I was raised until the age of 12.
-        My family then relocated here in the States. Initially we moved to New York and stayed there
+        My family then relocated here in the US. Initially we moved to New York and stayed there
         for about 3 years, then finally we moved here in California to be closer to our relatives. 
         My parents sacrificed a lot in order to give us a better future, therefore upon graduating I am
         happy to start working and begin helping them out.</p>
