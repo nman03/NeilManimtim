@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../images/logo.svg';
+import logo from '../assets/logo.svg';
 
 const Styles = styled.div`
     position: relative;
     display: block;
-
+    
     .footer {
         position: fixed;
         bottom: 0;

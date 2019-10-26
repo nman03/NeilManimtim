@@ -1,15 +1,17 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import logo from '../images/kneel.svg';
+import logo from '../assets/kneel.svg';
 import styled from 'styled-components';
 
 const Styles = styled.div`
     .navbar {
         background-color: #0b1021;
+        position: fixed;
+        width: 100%;
     }
 
     .brand {
-        color: #f7be16;
+        color: #f7be16 !important;
     }
     
     .item {

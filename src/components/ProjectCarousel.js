@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import game from '../images/game-footage.gif';
-import taxi from '../images/taxi.gif';
-import chatbot from '../images/chatbot.png';
+import game from '../assets/game-footage.gif';
+import taxi from '../assets/taxi.gif';
+import chatbot from '../assets/chatbot.png';
 import styled from 'styled-components';
 
 const Styles = styled.div`

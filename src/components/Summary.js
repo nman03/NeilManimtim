@@ -2,7 +2,7 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import styled from 'styled-components';
-import jumbo from '../images/dawn.jpg';
+import jumbo from '../assets/dawn.jpg';
 
 const Styles = styled.div`
     .jumbo {
