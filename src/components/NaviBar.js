@@ -7,7 +7,9 @@ const Styles = styled.div`
     .navbar {
         background-color: #0b1021;
         position: fixed;
+        top: 0;
         width: 100%;
+        height: 50px;
     }
 
     .brand {

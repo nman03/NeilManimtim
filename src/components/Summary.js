@@ -10,9 +10,9 @@ const Styles = styled.div`
         bacground-size: cover;
         color: white;
         min-height: 200px;
+        margin-top: 50px;
         margin-bottom: 50px;
         padding: 10px;
-        margin-right: auto;
         z-index: -2;
     }
 
