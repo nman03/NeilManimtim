@@ -10,10 +10,12 @@ const Styles = styled.div`
         width: 75%;
         height: 50%;
         margin: auto;
+        margin-bottom: 50px;
     }
 
     .img {
-        width: 640px;
+        width: 100%;
+        max-width: 640px;
         height: 360px;
         margin: auto;
         display: block;
@@ -31,9 +33,20 @@ const Styles = styled.div`
         background-color: #f79a4e;
     }
 
-    .caption p, .caption h3 {
+    .light-bg {
+        background-color: rgba(256,256,256,0.2)
+    }
+
+    .light-bg h6 {
         color: black;
-        background-color: rgba(256,256,256,0.5)
+    }
+
+    h3 {
+        color: #f7be16;
+    }
+
+    p {
+        color: white;
     }
 `;
 
@@ -42,26 +55,48 @@ export const Home = () => (
         <Carousel className="carousel" color="black">
             <Carousel.Item>
                 <img className="img" src={game} alt="game-gif" />
-                <Carousel.Caption>
+                <Carousel.Caption className="light-bg">
                     <h3>Forgotten Dungeon</h3>
-                    <p>3D First-Person Dungeon Shooter made with Unity</p>
+                    <h6>3D First-Person Dungeon Shooter made with Unity</h6>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="img" src={taxi} alt="taxi-gif" />
-                <Carousel.Caption className="caption">
+                <Carousel.Caption className="light-bg">
                     <h3>OpenAI Gym Taxi-v2</h3>
-                    <p>Feature-based Reinforcement Learning</p>
+                    <h6>Feature-based Reinforcement Learning</h6>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="img" src={chatbot} alt="chatbot" />
-                <Carousel.Caption className="caption">
+                <Carousel.Caption className="light-bg">
                     <h3>University Chatbot</h3>
-                    <p>Service ChatBot with built-in Natural Languange Processing.</p>
+                    <h6>Service ChatBot with built-in Natural Languange Processing.</h6>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        <h3>Lorem Ipsum</h3>
+        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+        has been the industry's standard dummy text ever since the 1500s, when an unknown 
+        printer took a galley of type and scrambled it to make a type specimen book. It has 
+        survived not only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged. It was popularised in the 1960s with the release 
+        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+        has been the industry's standard dummy text ever since the 1500s, when an unknown 
+        printer took a galley of type and scrambled it to make a type specimen book. It has 
+        survived not only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged. It was popularised in the 1960s with the release 
+        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+        has been the industry's standard dummy text ever since the 1500s, when an unknown 
+        printer took a galley of type and scrambled it to make a type specimen book. It has 
+        survived not only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged. It was popularised in the 1960s with the release 
+        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </Styles>
 );
 

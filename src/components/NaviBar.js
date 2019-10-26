@@ -9,12 +9,19 @@ const Styles = styled.div`
         color: white;
     }
 
-    .brand, .item {
+    .brand {
+        color: #f7be16 !important;
+       
+        &:hover {
+            color: white !important;
+        }
+    }
+    
+    .item {
         color: white !important;
-        font-size: .9em;
 
         &:hover {
-            color: #f79a4e !important;
+            color: #f7be16 !important;
         }
     }
 

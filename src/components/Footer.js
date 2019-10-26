@@ -22,8 +22,7 @@ const Styles = styled.div`
         padding-left: 5px;
 
         &:hover {
-            text-decoration: none;
-            color: #f79a4e;
+            color: #f7be16;
         }
     }
 
@@ -39,6 +38,7 @@ export const Footer = () => (
         <div className="footer">
             &copy; Neil Manimtim | 
             <a className="link" href="https://github.com/nman03">GitHub</a> |
+            <a className="link" href="https://www.linkedin.com/in/neilmanimtim/">LinkedIn</a> |
             <a className="link" href="mailto:nm31997@gmail.com">E-Mail</a>
             <img className="logo" src={logo}/> Powered by React
         </div>
