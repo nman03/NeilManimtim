@@ -13,7 +13,7 @@ const Styles = styled.div`
         color: #f7be16;
     }
 
-    .figure {
+    .figure, .video {
         width: 600px;
         margin-top: 20px;
         margin-bottom: 20px; 
@@ -40,7 +40,7 @@ const Styles = styled.div`
 export const Projects = () => (
     <Styles>
         <h3>Forgotten Dungeon</h3>
-        <video className="figure" controls autoPlay muted><source src={showcase} type="video/mp4" />
+        <video className="video" controls autoPlay preload muted><source src={showcase} type="video/mp4" />
             Your browser does not support the video tag.
         </video>
         <Button className="button" 
